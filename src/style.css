@@ -1,0 +1,29 @@
+.circle-container {
+  width: 200px; /* Adjust as needed */
+  height: 100px; /* Adjust as needed */
+  position: relative;
+}
+
+.circle {
+  position: absolute;
+  width: 200px; /* Adjust as needed */
+  height: 100px; /* Adjust as needed */
+  border-radius: 50%;
+  clip-path: polygon(50% 0%, 100% 100%, 0% 100%);
+}
+
+#circle1 {
+  background-color: lightblue;
+  transform: rotate(0deg);
+}
+
+#circle2 {
+  left: 50;
+  background-color: lightgreen;
+  transform: rotate(140deg);
+}
+
+#circle3 {
+  background-color: lightcoral;
+  transform: rotate(240deg);
+}
